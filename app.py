@@ -228,16 +228,16 @@ def run(
 
 TARGET_LANGUAGE_NAMES = [
     "English",
-    "French",
-    "German",
-    "Spanish",
+    "Mandarin Chinese",
+    "Cantonese",
+    "Japanese",
 ]
 
 UPDATED_LANGUAGE_LIST = {
-    "English": ["French", "German", "Spanish"],
-    "French": ["English", "German", "Spanish"],
-    "German": ["English", "French", "Spanish"],
-    "Spanish": ["English", "French", "German"],
+    "English": ["Mandarin Chinese", "Cantonese", "Japanese"],
+    "Mandarin Chinese": ["English", "Cantonese", "Japanese"],
+    "Cantonese": ["English", "Mandarin Chinese", "Japanese"],
+    "Japanese": ["English", "Mandarin Chinese", "Cantonese"],
 }
 
 def rs_change(rs):
